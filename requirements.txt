@@ -1,0 +1,13 @@
+jupyterlab
+pandas
+matplotlib
+seaborn
+
+# For Jupyter code formatting - https://github.com/ryantam626/jupyterlab_code_formatter
+# Formatting option is under Edit menu or command pallete
+# Also install jupyter labextension install @ryantam626/jupyterlab_code_formatter
+# May need to enable it by hand: jupyter serverextension enable --py jupyterlab_code_formatter
+# Restart the server ('jupyter lab') if the formmating option doesn't appear
+autopep8
+jupyterlab_code_formatter
+
