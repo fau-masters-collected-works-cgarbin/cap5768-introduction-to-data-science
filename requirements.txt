@@ -11,3 +11,6 @@ seaborn
 autopep8
 jupyterlab_code_formatter
 
+# Also install the inspector - https://github.com/lckr/jupyterlab-variableInspector
+jupyter labextension install @lckr/jupyterlab_variableinspector
+
