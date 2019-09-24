@@ -3,7 +3,7 @@ CAP5768 Introduction to Data Science Fall 2019
 
 ## Assignment 1
 
-[Assignment](./assignment1) 1 is a warm-up exercise, to get used to NumPy and Pandas in Jupyter environment.
+[Assignment 1](./assignment1) is a warm-up exercise, to get used to NumPy and Pandas in a Jupyter environment.
 
 Covered in this assignment:
 
@@ -13,5 +13,15 @@ Covered in this assignment:
 * Uses Pandas `DataFrame` and `Series` filter and aggregration functions
 * Find correlations analytically with Pearson correlation coefficient and aggregated statistics
 * Find correlations with graphs (Seaborn `regplot`)
-* Formulate and verify hypothesis with analytical (e.g. aggregation by type) and graphical support (e.g. box plots)
+* Formulate and verify hypotheses with analytical (e.g. aggregation by type) and graphical support (e.g. box plots)
 
+## Assignment 2
+
+[Assignment 2](./assignment2) is about exploration of datasets (manipulate, summarize, visualize).
+
+Covered in this assignment:
+
+* Combine multiple datasets into, using common fields across the datasets
+* Summarize, filter and sort data with `pivot_table`, `groupby`, `query`, `eval` and other functions
+* Visualize datasets with Matplotlib and `DataFrame.plot`
+* More formulation and verification of hypotheses with analytical (e.g. aggregation by type) and graphical support
