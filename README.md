@@ -25,3 +25,14 @@ Covered in this assignment:
 * Summarize, filter and sort data with `pivot_table`, `groupby`, `query`, `eval` and other functions
 * Visualize datasets with Matplotlib and `DataFrame.plot`
 * More formulation and verification of hypotheses with analytical (e.g. aggregation by type) and graphical support
+
+## Assignment 3
+
+[Assignment 3](./assignment3) is when we switched from analytics to statistics, the first chapters of [Think Stats 2](https://greenteapress.com/wp/think-stats-2e/).
+
+Covered in this assignment:
+
+* Selecting number of bins for histograms ("binning bias")
+* Beyond histograms: swarm plots and box plots
+* Cumulative distribution function (CDF)
+* Correlation with Pearson and Spearman functions
