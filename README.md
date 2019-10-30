@@ -36,3 +36,15 @@ Covered in this assignment:
 * Beyond histograms: swarm plots and box plots
 * Cumulative distribution function (CDF)
 * Correlation with Pearson and Spearman functions
+
+## Assignment 4
+
+[Assignment 4](./assignment4) explores modeling: how to identify the type of a distribution and its parameters, validate the dsitrubtion against a theoretical model, then use the model to answer questions about the distribution. [Part 1 of DataCamp's Statistical Thinking in Python](https://www.datacamp.com/courses/statistical-thinking-in-python-part-1) was a useful resource.
+
+Covered in this assignment:
+
+* PDF and CDF of exponential distributions
+* Find the type and parameters of an empirical distribution
+* Use the parameters to simulate the distribution and answer qeustions about it
+* Calculate moments and skewness
+
