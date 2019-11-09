@@ -48,3 +48,13 @@ Covered in this assignment:
 * Use the parameters to simulate the distribution and answer qeustions about it
 * Calculate moments and skewness
 
+## Assignment 5
+
+[Assignment 5](./assignment5) covers hypotheses testing with simulations and p-value calculation. Cassie Kozyrkov's [Statistics for people in a hurry](https://towardsdatascience.com/statistics-for-people-in-a-hurry-a9613c0ed0b) was very helpful to understand the concepts of what we are attempting here, especially the meaning of the null hypothesis.
+
+Covered in this assignment:
+
+* Permutate the empirical data to run experiments (using `numpy.random.permutation()`)
+* Decide what pieces of the dataset we need to permutate (all of them, only one of them?)
+* Calculate the p-value from the experiments
+* Interpret the p-value
