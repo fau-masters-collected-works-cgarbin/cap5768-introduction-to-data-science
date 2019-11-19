@@ -65,3 +65,19 @@ Covered in this assignment:
 * Decide what pieces of the dataset we need to permutate (all of them, only one of them?)
 * Calculate the p-value from the experiments
 * Interpret the p-value
+
+## Assignment 6
+
+[Assignment 6](./assignment6) cover regression analysis: how to add polynomial feaures, then perform linear regression on the enhanced dataset, evaluate results with R<sup>2</sup> score and regularize with Ridge and Lasso.
+
+Covered in this assignment:
+
+* Perform linear regression with Numpy `polyfit()`
+* Add features to improve fitting with `PolynomialFeatures()`
+* Perform Linear regression with scikit-learn `LinearRegression()`
+* Perform all steps together with a pipeline
+* Regularize with Ridge and Lasso to prevent overfitting
+* Use `RidgeCV()` and `LassoCV()` for hyperparameter search
+* Evaluate the linear regression results with the R<sup>2</sup> score
+* Choose an optimal polynomial degree by comparing R<sup>2</sup> score
+* To not trust only the summary statistics (Anscombe's quartet)
