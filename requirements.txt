@@ -5,6 +5,7 @@ seaborn
 sklearn
 pillow
 graphviz
+pandas_profiling
 
 # For Jupyter code formatting - https://github.com/ryantam626/jupyterlab_code_formatter
 autopep8
