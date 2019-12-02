@@ -4,8 +4,10 @@ matplotlib
 seaborn
 sklearn
 pillow
-graphviz
 pandas_profiling
+
+# Also install Graphviz itself - see https://www.graphviz.org/
+graphviz
 
 # For Jupyter code formatting - https://github.com/ryantam626/jupyterlab_code_formatter
 autopep8
