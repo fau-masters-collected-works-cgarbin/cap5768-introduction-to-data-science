@@ -5,6 +5,8 @@ seaborn
 sklearn
 pillow
 pandas_profiling
+scikit-image
+opencv-python
 
 # Also install Graphviz itself - see https://www.graphviz.org/
 graphviz
