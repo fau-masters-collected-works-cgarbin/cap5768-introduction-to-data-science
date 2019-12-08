@@ -68,7 +68,7 @@ Covered in this assignment:
 
 ## Assignment 6
 
-[Assignment 6](./assignment6) cover regression analysis: how to add polynomial feaures, then perform linear regression on the enhanced dataset, evaluate results with R<sup>2</sup> score and regularize with Ridge and Lasso.
+[Assignment 6](./assignment6) covers regression analysis: how to add polynomial feaures, then perform linear regression on the enhanced dataset, evaluate results with R<sup>2</sup> score and regularize with Ridge and Lasso.
 
 Covered in this assignment:
 
@@ -81,3 +81,30 @@ Covered in this assignment:
 * Evaluate the linear regression results with the R<sup>2</sup> score
 * Choose an optimal polynomial degree by comparing R<sup>2</sup> score
 * To not trust only the summary statistics (Anscombe's quartet)
+
+## Final project
+
+In the [final project](./final-project) we review concepts we learned early in the course,
+and use the techniques we learned later.
+
+Covered in the final project:
+
+* DataFrame `describe()`, to view summary statistics at a glance. All the important values
+  are available with one function call.
+* How much we get out-of-the-box from the 
+[`pandas_profiling`](https://github.com/pandas-profiling/pandas-profiling) package.
+  It is like a "mini EDA" with one line of code.
+* The `verbose` parameter to follow the progress of long-running scikit-learn tasks.
+* Pay attention to random_state in the scikit-learn APIs to get consistent results.
+* Use `GridSearchCV()` to find parameters for a classifier.
+* The power and simplicity of Naive Bayes classifiers, even for seemly complex tasks
+  such as digit classification. It can be used as a baseline before attempting more
+  complex solutions.
+* The power and simplicity of Naive Bayes classifiers, even for seemly complex tasks such as digit classification. It can be used as a baseline before attempting more complex solutions.
+* How to use seaborn's `heatmap` for confusion matrix visualization. More specifically, 
+  the trick to zero out the diagonal with NumPy fill_diagonal() to make the mistakes
+  dsstand out in the graph.
+* The power and simplicity of Naive Bayes classifiers, even for seemly complex tasks such as digit classification. It can be used as a baseline before attempting more complex solutions.
+* How surprisingly good random forest classifiers perform, achieving 97% in the digit classification without much work. Another case of "try this before pulling your neural network card" case. Especially with the emphasis in explainable AI, random forests may have an edge because even layman can understand them.
+* The small number of components we need to explain variability (the PCA section).
+* Finally getting a chance to play with [OpenCV](https://opencv.org/) and see first-hand how easy and feature-rich it is.
