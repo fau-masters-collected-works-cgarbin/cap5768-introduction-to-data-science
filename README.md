@@ -4,7 +4,7 @@ CAP5768 Introduction to Data Science Fall 2019
 
 Credits:
 
-* Professor Dr. Oge Marques
+* [Professor Dr. Oge Marques](https://www.ogemarques.com/)
 * Our textbooks: [Python Data Science Handbook](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb#scrollTo=sr_2etKoQWhh), and [Think Stats 2](https://greenteapress.com/thinkstats2/thinkstats2.pdf)
 * DataCamp courses: [Statistical Thinking in Python part 1](https://www.datacamp.com/courses/statistical-thinking-in-python-part-1) and [part 2](https://www.datacamp.com/courses/statistical-thinking-in-python-part-2)
 
