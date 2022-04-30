@@ -8,6 +8,18 @@ Credits:
 * Our textbooks: [Python Data Science Handbook](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb#scrollTo=sr_2etKoQWhh), and [Think Stats 2](https://greenteapress.com/thinkstats2/thinkstats2.pdf)
 * DataCamp courses: [Statistical Thinking in Python part 1](https://www.datacamp.com/courses/statistical-thinking-in-python-part-1) and [part 2](https://www.datacamp.com/courses/statistical-thinking-in-python-part-2)
 
+Quick "get started" guide:
+
+1. Clone this repository
+1. `cd` to the repository's directory
+1. Optional: create a [Python virtual environment](https://docs.python.org/3/tutorial/venv.html)
+    1. `python3 -m venv env`
+    1. `source env/bin/activate` (Windows: `env\Scripts\activate.bat`)
+    1. `python -m pip install --upgrade pip`
+1. `pip install -r requirements.txt`
+1. `jupyter lab`
+1. Navigate to the assignments and open the notebook
+
 ## Assignment 1
 
 [Assignment 1](./assignment1) is a warm-up exercise, to get used to NumPy and Pandas in a Jupyter environment.
@@ -91,7 +103,7 @@ Covered in the final project:
 
 * DataFrame `describe()`, to view summary statistics at a glance. All the important values
   are available with one function call.
-* How much we get out-of-the-box from the 
+* How much we get out-of-the-box from the
 [`pandas_profiling`](https://github.com/pandas-profiling/pandas-profiling) package.
   It is like a "mini EDA" with one line of code.
 * The `verbose` parameter to follow the progress of long-running scikit-learn tasks.
@@ -101,7 +113,7 @@ Covered in the final project:
   such as digit classification. It can be used as a baseline before attempting more
   complex solutions.
 * The power and simplicity of Naive Bayes classifiers, even for seemly complex tasks such as digit classification. It can be used as a baseline before attempting more complex solutions.
-* How to use seaborn's `heatmap` for confusion matrix visualization. More specifically, 
+* How to use seaborn's `heatmap` for confusion matrix visualization. More specifically,
   the trick to zero out the diagonal with NumPy fill_diagonal() to make the mistakes
   dsstand out in the graph.
 * The power and simplicity of Naive Bayes classifiers, even for seemly complex tasks such as digit classification. It can be used as a baseline before attempting more complex solutions.
