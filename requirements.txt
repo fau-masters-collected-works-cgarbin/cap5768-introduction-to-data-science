@@ -1,4 +1,3 @@
-jupyterlab
 pandas
 matplotlib
 seaborn
@@ -7,6 +6,9 @@ pillow
 pandas_profiling
 scikit-image
 opencv-python
+
+jupyterlab
+ipywidgets
 
 # Also install Graphviz itself - see https://www.graphviz.org/
 graphviz
@@ -17,4 +19,3 @@ jupyterlab_code_formatter
 
 # Instructions to setup the JupyterLab extensions in
 # https://github.com/fau-masters-collected-works-cgarbin/cap5768-introduction-to-data-science/wiki/Minimalist-JupyterLab-setup-with-a-handful-of-extensions
-
