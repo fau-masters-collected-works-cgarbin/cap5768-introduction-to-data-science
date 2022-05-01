@@ -20,6 +20,11 @@ Quick "get started" guide:
 1. `jupyter lab`
 1. Navigate to the assignments and open the notebook
 
+Other data science resources similar to this one:
+
+* [IEEE ICMLA 2019 data science tutorial](https://github.com/fau-masters-collected-works-cgarbin/ieee-icmla-2019-data-science-tutorial): a structured introduction to data science, with smaller notebooks, each for a specific topic.
+* [How to write well-structured, understandable, reliable, flexible Jupyter notebooks](https://github.com/fau-masters-collected-works-cgarbin/intro-data-science-guest-speaker).
+
 ## Assignment 1
 
 [Assignment 1](./assignment1) is a warm-up exercise to get used to NumPy and Pandas in a Jupyter environment.
