@@ -23,7 +23,7 @@ Quick "get started" guide:
 Other data science resources similar to this one:
 
 * [IEEE ICMLA 2019 data science tutorial](https://github.com/fau-masters-collected-works-cgarbin/ieee-icmla-2019-data-science-tutorial): a structured introduction to data science, with smaller notebooks, each for a specific topic.
-* [How to write well-structured, understandable, reliable, flexible Jupyter notebooks](https://github.com/fau-masters-collected-works-cgarbin/intro-data-science-guest-speaker).
+* [How to write well-structured, understandable, reliable, flexible Jupyter notebooks](https://github.com/fau-masters-collected-works-cgarbin/writing-good-jupyter-notebooks).
 
 ## Assignment 1
 
