@@ -20,7 +20,7 @@ Quick "get started" guide:
 1. `jupyter lab`
 1. Navigate to the assignments and open the notebook
 
-Other data science resources similar to this one:
+If you found this repository useful, you may also want to check out these repositories:
 
 * [IEEE ICMLA 2019 data science tutorial](https://github.com/fau-masters-collected-works-cgarbin/ieee-icmla-2019-data-science-tutorial): a structured introduction to data science, with smaller notebooks, each for a specific topic.
 * [How to write well-structured, understandable, reliable, flexible Jupyter notebooks](https://github.com/fau-masters-collected-works-cgarbin/writing-good-jupyter-notebooks).
@@ -41,7 +41,7 @@ Covered in this assignment:
 
 ## Assignment 2
 
-[Assignment 2](./assignment2) is about exploration of datasets (manipulate, summarize, visualize).
+[Assignment 2](./assignment2) is about the exploration of datasets (manipulate, summarize, visualize).
 
 Covered in this assignment:
 
@@ -108,14 +108,11 @@ Covered in the final project:
 
 * DataFrame `describe()`, to view summary statistics at a glance. All the important values are available with one function call.
 * How much we get out-of-the-box from the [`pandas_profiling`](https://github.com/pandas-profiling/pandas-profiling) package. It is like a "mini EDA" with one line of code.
-* The `verbose` parameter to follow the progress of long-running scikit-learn tasks.
-* Pay attention to random_state in the scikit-learn APIs to get consistent results.
+* The `verbose` parameter to follow the progress of long-running [scikit-learn](https://scikit-learn.org/stable/) tasks.
+* Pay attention to the `random_state` parameter in the scikit-learn APIs to [get consistent results](https://scikit-learn.org/stable/common_pitfalls.html#randomness).
+* How to use [seaborn's](https://seaborn.pydata.org/) `heatmap` for confusion matrix visualization. More specifically, the trick to zero out the diagonal with NumPy `fill_diagonal()` to make the classification mistakes stand out in the graph.
 * Use `GridSearchCV()` to find parameters for a classifier.
-* The power and simplicity of Naive Bayes classifiers, even for seemly complex tasks such as digit classification. It can be used as a baseline before attempting more
-  complex solutions.
 * The power and simplicity of Naive Bayes classifiers, even for seemly complex tasks such as digit classification. It can be used as a baseline before attempting more complex solutions.
-* How to use seaborn's `heatmap` for confusion matrix visualization. More specifically, the trick to zero out the diagonal with NumPy fill_diagonal() to make the mistakes stand out in the graph.
-* The power and simplicity of Naive Bayes classifiers, even for seemly complex tasks such as digit classification. It can be used as a baseline before attempting more complex solutions.
-* How surprisingly good random forest classifiers perform, achieving 97% in the digit classification without much work. Another case of "try this before pulling your neural network card" case. Random forests may have an edge, especially with the emphasis on explainable AI, because even laypeople can understand them.
-* The small number of components we need to explain variability (the PCA section).
+* How surprisingly good random forest classifiers perform, achieving 97% in the digit classification without much work. Another case of "try this before pulling your neural network card" case.
+* The small number of components we need to explain variability (the [PCA](https://stats.stackexchange.com/a/140579/378025) section).
 * Finally getting a chance to play with [OpenCV](https://opencv.org/) and see first-hand how easy and feature-rich it is.
