@@ -32,7 +32,7 @@ If you found this repository useful, you may also want to check out these reposi
 Covered in this assignment:
 
 * Get a Jupyter Lab environment up and running (see [this wiki page](https://github.com/fau-masters-collected-works-cgarbin/cap5768-introduction-to-data-science/wiki/Minimalist-JupyterLab-setup-with-a-handful-of-extensions))
-* Learn and apply NumPy and Pandas (see notes [in this wiki page](https://github.com/fau-masters-collected-works-cgarbin/cap5768-introduction-to-data-science/wiki/Notes-from-Python-Data-Science-Handbook))
+* Learn and apply NumPy and Pandas (see notes [on this wiki page](https://github.com/fau-masters-collected-works-cgarbin/cap5768-introduction-to-data-science/wiki/Notes-from-Python-Data-Science-Handbook))
 * Read data from .csv files
 * Uses Pandas `DataFrame` and `Series` filter and aggregation functions
 * Find correlations analytically with Pearson correlation coefficient and aggregated statistics
@@ -41,7 +41,7 @@ Covered in this assignment:
 
 ## Assignment 2
 
-[Assignment 2](./assignment2) is about the exploration of datasets (manipulate, summarize, visualize).
+[Assignment 2](./assignment2) is about exploring datasets (manipulate, summarize, visualize).
 
 Covered in this assignment:
 
@@ -107,7 +107,7 @@ and use the techniques we learned later.
 Covered in the final project:
 
 * DataFrame `describe()`, to view summary statistics at a glance. All the important values are available with one function call.
-* How much we get out-of-the-box from the [`pandas_profiling`](https://github.com/pandas-profiling/pandas-profiling) package. It is like a "mini EDA" with one line of code.
+* How much we get out of the box from the [`ydata-profiling`](https://ydata-profiling.ydata.ai/docs/master/) package. It is like a "mini EDA" with one line of code.
 * The `verbose` parameter to follow the progress of long-running [scikit-learn](https://scikit-learn.org/stable/) tasks.
 * Pay attention to the `random_state` parameter in the scikit-learn APIs to [get consistent results](https://scikit-learn.org/stable/common_pitfalls.html#randomness).
 * How to use [seaborn's](https://seaborn.pydata.org/) `heatmap` for confusion matrix visualization. More specifically, the trick to zero out the diagonal with NumPy `fill_diagonal()` to make the classification mistakes stand out in the graph.
