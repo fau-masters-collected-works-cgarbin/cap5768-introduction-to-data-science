@@ -1,6 +1,7 @@
-# cap5768-introduction-to-data-science
+# CAP 5768 Introduction to Data Science Fall 2019
+<!-- markdownlint-disable MD033 -->
 
-CAP5768 Introduction to Data Science Fall 2019
+Note and assignments from CAP 5768 Introduction to Data Science Fall 2019.
 
 Credits:
 
@@ -11,14 +12,14 @@ Credits:
 Quick "get started" guide:
 
 1. Clone this repository
-1. `cd` to the repository's directory
-1. Optional: create a [Python virtual environment](https://docs.python.org/3/tutorial/venv.html)
+2. `cd` to the repository's directory
+3. Optional: create a [Python virtual environment](https://docs.python.org/3/tutorial/venv.html)
     1. `python3 -m venv env`
-    1. `source env/bin/activate` (Windows: `env\Scripts\activate.bat`)
-    1. `python -m pip install --upgrade pip`
-1. `pip install -r requirements.txt`
-1. `jupyter lab`
-1. Navigate to the assignments and open the notebook
+    2. `source env/bin/activate` (Windows: `env\Scripts\activate.bat`)
+    3. `python -m pip install --upgrade pip`
+4. `pip install -r requirements.txt`
+5. Open the folder in [Visual Studio Code with Jupyter notebook support](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) or directly in JupyterLab with `jupyter lab`
+6. Navigate to the assignments and open the notebook
 
 If you found this repository useful, you may also want to check out these repositories:
 
